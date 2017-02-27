@@ -1,4 +1,5 @@
 #include "Student.h"
+#include <iostream>
 using namespace std;
 
 Student::Student() //constructor without parameters is a default constructor
@@ -16,6 +17,12 @@ Student::Student(string name) // can also use _name(name)
 
 Student::~Student()
 {
+	cout << "Destruct?";
+	cin >> _destructer;
+	if (_destructer == "yes")
+	{
+		cout << _name + " is destructed" << endl;
+	}
 }
 
 std::string Student::GetName()

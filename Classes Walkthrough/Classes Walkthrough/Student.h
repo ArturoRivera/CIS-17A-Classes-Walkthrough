@@ -5,6 +5,7 @@ class Student
 {
 private:
 	std::string _name;
+	std::string _destructer;
 
 public:
 	Student();

@@ -20,6 +20,7 @@ int main()
 	
 	
 	
+	
 	Teacher james = Teacher("james");
 	Course cis17 = Course("CIS17A", "Programming C++: Objects", james);
 	Student sam = Student("Samantha");
@@ -27,7 +28,8 @@ int main()
 	Student bri = Student("Brianna");
 	Student jake = Student("Jake");
 	Student christian = Student("Christian");
-	
+
+
 	cis17.enrollStudent(art, 0);
 	cis17.enrollStudent(sam, 1);
 	cis17.enrollStudent(jake, 2);
